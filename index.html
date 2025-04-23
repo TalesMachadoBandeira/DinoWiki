@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DinoWiki</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <meta name="theme-color" content="#39b54a">
+    <link rel="apple-touch-icon" href="/icon/192.png">
+  </head>
+  <link rel="manifest" href="./manifest.json">
+  <body>
+    <header>
+      <h1>
+        <a href="index.html">
+          <img src="image/Logo DonoWiki-verde.jpeg" alt="Logo DinoWiki" />
+        </a>
+      </h1>
+
+      <button class="menu-hamburguer" aria-label="Abrir menu">
+  <i class="fas fa-bars"></i>
+</button>
+
+<nav class="menu">
+        <ul>
+          <li><a href="/index.html">Início</a></li>
+          <li><a href="/Historia/historia.html">História</a></li>
+          <li><a href="/Dinossauro/dinossauro.html">Dinossauro</a></li>
+          <li><a href="/Contato/contato.html">Contato</a></li>
+          <li><button id="loginBtn">Entrar</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Section 1: Imagem e Texto -->
+      <section class="section-1">
+        <div class="image">
+          <img src="image/folhas.jpeg" alt="folhas 1 section" />
+        </div>
+        <div class="text">
+          <h2>Bem-vindo ao DinoWiki!</h2>
+          <p>
+            Descubra o fascinante mundo dos dinossauros com paixão e
+            curiosidade. Aqui, você poderá explorar a história dessas criaturas
+            incríveis, mergulhar em seu legado e trazer à vida um passado
+            distante e extraordinário. Torne sua experiência inesquecível
+            enquanto aprende e se conecta ao incrível universo jurássico!
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 2: Texto à esquerda, imagem à direita -->
+      <section class="section-2">
+        <div class="text">
+          <h2>Um dos maiores predadores terrestre</h2>
+          <p>
+            O Tiranossauro rex, um dos maiores predadores terrestres do período
+            Cretáceo, era conhecido por sua força e domínio. Com dentes afiados
+            e um corpo musculoso, ele caçava com agilidade e desempenhava um
+            papel importante no equilíbrio ecológico de seu habitat. Até hoje, o
+            T. rex desperta fascínio e nos conecta a um passado extraordinário
+            da história da vida na Terra.
+          </p>
+        </div>
+        <div class="image">
+          <img
+            src="image/dinossauro-image2-removebg-preview.png"
+            alt="Tiranossauro Rex"
+          />
+        </div>
+      </section>
+
+      <!-- Section 3: Imagem à esquerda, texto à direita -->
+      <section class="section-3">
+        <div class="image">
+          <img src="image/Ambiente-jurássico.jpg" alt="Ambiente jurássico" />
+        </div>
+        <div class="text">
+          <h2>Ambiente pré-histórico</h2>
+          <p>
+            A imagem representa um olhar profundo e detalhado sobre o mundo
+            pré-histórico, onde dinossauros dominavam a Terra. O fundo enfatiza
+            uma atmosfera selvagem e intocada, com vegetação rica que remonta a
+            eras antigas. Isso reforça o conceito de um ambiente natural e
+            imponente, combinando harmoniosamente com a presença do dinossauro.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 DinoWiki Todos os direitos reservados.</p>
+      <a
+        href="https://wa.me/5581999999999"
+        class="btn-whatsapp"
+        target="_blank"
+        rel="noopener"
+      >
+        <i class="fab fa-whatsapp"></i> Fale Conosco
+      </a>
+    </footer>
+
+    <!-- <script>
+      const botaoMenu = document.querySelector(".menu-hamburguer");
+      const menu = document.querySelector("nav.menu");
+
+      botaoMenu.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script> -->
+  <script>
+  const botaoMenu = document.querySelector(".menu-hamburguer");
+  const menu = document.querySelector("nav.menu");
+  botaoMenu.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
+</script>
+</body>
+</html>

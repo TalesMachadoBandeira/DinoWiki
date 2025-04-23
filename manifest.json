@@ -1,0 +1,53 @@
+{
+  "theme_color":"#166104",
+  "background_color":"#f2f2f2",
+  "icons":[
+      {
+          "purpose":"maskable",
+          "sizes":"512x512",
+          "src":"/icon/icon512_maskable.png",
+          "type":"image/png"
+      },
+      {
+          "purpose":"any",
+          "sizes":"512x512",
+          "src":"/icon/icon512_rounded.png",
+          "type":"image/png"
+      },
+      {
+          "purpose": "any",
+          "sizes": "192x192",
+          "src": "/icon/192.png",
+          "type": "image/png"
+      },
+      {
+          "purpose": "any",
+          "sizes": "144x144",
+          "src": "/icon/144.png",
+          "type": "image/png"
+      }
+  ],
+  "screenshots": [
+      {
+          "src": "SS_Desk.png",
+          "type": "image/jpg",
+          "sizes": "1905x925",
+          "form_factor": "wide"
+        },
+        {
+          "src": "SS_Mobile.png",
+          "type": "image/jpg",
+          "sizes": "410x822",
+          "form_factor": "narrow"
+        }
+  ],
+  "orientation":"any",
+  "display":"standalone",
+  "dir":"auto",
+  "lang":"pt-BR",
+  "description":"O Catálogo dos bichos mais incríveis que um dia já pisaram na terra!",
+  "start_url":"/index.html",
+  "name":"DinoWiki - A Wiki dos Dinossauros",
+  "short_name":"DinoWiki",
+  "scope": "/"
+}

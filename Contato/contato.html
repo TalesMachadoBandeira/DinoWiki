@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - DinoWiki</title>
+    <link rel="stylesheet" href="/Contato/contato.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1>
+        <a href="index.html">
+          <img src="/image/Logo DonoWiki-verde.jpeg" alt="Logo DinoWiki" />
+        </a>
+      </h1>
+      <nav class="menu">
+        <ul>
+          <li><a href="/index.html">Início</a></li>
+          <li><a href="/Historia/historia.html">História</a></li>
+          <li><a href="/Dinossauro/dinossauro.html">Dinossauro</a></li>
+          <li><a href="/Contato/contato.html">Contato</a></li>
+          <li><button id="loginBtn">Entrar</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+      <h2>Entre em Contato</h2>
+      <p>Estamos prontos para te ajudar com qualquer dúvida ou informação.</p>
+    </section>
+
+    <!-- Informações de Contato -->
+    <section class="info-contato">
+      <div class="card">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Endereço</h3>
+        <p>Av. Boa Viagem, 123 - Recife, PE</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-phone"></i>
+        <h3>Telefone</h3>
+        <p>(81) 98765-4321</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-envelope"></i>
+        <h3>E-mail</h3>
+        <p>contato@dinowiki.com.br</p>
+      </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section class="form-contato">
+      <h2>Envie uma Mensagem</h2>
+      <form id="contatoForm">
+        <div class="form-group">
+          <label for="nome"><i class="fas fa-user"></i> Nome</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Seu nome completo"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email"><i class="fas fa-envelope"></i> E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Seu e-mail"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="mensagem"
+            ><i class="fas fa-comment-dots"></i> Mensagem</label
+          >
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            rows="5"
+            placeholder="Escreva sua mensagem"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar Mensagem</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+
+    <!-- Mapa -->
+    <section class="mapa">
+      <iframe
+        title="Localização"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.375389036905!2d-34.89282292468792!3d-8.0638737805572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1993e38844a5%3A0x5d3e3b9a3a6e3b1a!2sAv.%20Boa%20Viagem%2C%20123%20-%20Boa%20Viagem%2C%20Recife%20-%20PE%2C%2051030-000!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2025 DinoWiki. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+      "server - woker.js";
+    </script>
+  </body>
+</html>
